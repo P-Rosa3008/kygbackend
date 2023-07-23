@@ -1,4 +1,6 @@
-export const questions: Array<object> = [
+import { QuestionItem } from "./models/question";
+
+export const questions: Array<QuestionItem> = [
   {
     id: 1,
     question:
@@ -14,6 +16,7 @@ export const questions: Array<object> = [
     ],
     isLocked: false,
     questionType: "random",
+    law: 12,
   },
   {
     id: 2,
@@ -39,6 +42,7 @@ export const questions: Array<object> = [
     ],
     isLocked: false,
     questionType: "random",
+    law: 12,
   },
   {
     id: 3,
@@ -61,6 +65,7 @@ export const questions: Array<object> = [
     ],
     isLocked: false,
     questionType: "random",
+    law: 12,
   },
   {
     id: 4,
@@ -83,6 +88,7 @@ export const questions: Array<object> = [
     ],
     isLocked: false,
     questionType: "random",
+    law: 12,
   },
   {
     id: 5,
@@ -108,6 +114,7 @@ export const questions: Array<object> = [
     ],
     isLocked: false,
     questionType: "random",
+    law: 12,
   },
   {
     id: 6,
@@ -133,6 +140,7 @@ export const questions: Array<object> = [
     ],
     isLocked: false,
     questionType: "random",
+    law: 12,
   },
   {
     id: 7,
@@ -158,6 +166,7 @@ export const questions: Array<object> = [
     ],
     isLocked: false,
     questionType: "random",
+    law: 12,
   },
   {
     id: 8,
@@ -183,6 +192,7 @@ export const questions: Array<object> = [
     ],
     isLocked: false,
     questionType: "random",
+    law: 12,
   },
   {
     id: 9,
@@ -208,6 +218,7 @@ export const questions: Array<object> = [
     ],
     isLocked: false,
     questionType: "random",
+    law: 12,
   },
   {
     id: 10,
@@ -233,6 +244,7 @@ export const questions: Array<object> = [
     ],
     isLocked: false,
     questionType: "random",
+    law: 12,
   },
   {
     id: 11,
@@ -258,6 +270,7 @@ export const questions: Array<object> = [
     ],
     isLocked: false,
     questionType: "random",
+    law: 12,
   },
   {
     id: 12,
@@ -283,6 +296,7 @@ export const questions: Array<object> = [
     ],
     isLocked: false,
     questionType: "random",
+    law: 12,
   },
   {
     id: 13,
@@ -308,6 +322,7 @@ export const questions: Array<object> = [
     ],
     isLocked: false,
     questionType: "random",
+    law: 12,
   },
   {
     id: 14,
@@ -333,6 +348,7 @@ export const questions: Array<object> = [
     ],
     isLocked: false,
     questionType: "random",
+    law: 12,
   },
   {
     id: 15,
@@ -358,6 +374,7 @@ export const questions: Array<object> = [
     ],
     isLocked: false,
     questionType: "random",
+    law: 12,
   },
   {
     id: 16,
@@ -383,6 +400,7 @@ export const questions: Array<object> = [
     ],
     isLocked: false,
     questionType: "random",
+    law: 12,
   },
   {
     id: 17,
@@ -408,6 +426,7 @@ export const questions: Array<object> = [
     ],
     isLocked: false,
     questionType: "random",
+    law: 12,
   },
   {
     id: 18,
@@ -433,6 +452,7 @@ export const questions: Array<object> = [
     ],
     isLocked: false,
     questionType: "random",
+    law: 12,
   },
   {
     id: 19,
@@ -458,6 +478,7 @@ export const questions: Array<object> = [
     ],
     isLocked: false,
     questionType: "random",
+    law: 12,
   },
   {
     id: 20,
@@ -483,5 +504,6 @@ export const questions: Array<object> = [
     ],
     isLocked: false,
     questionType: "random",
+    law: 12,
   },
 ];

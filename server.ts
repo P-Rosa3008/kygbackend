@@ -41,13 +41,14 @@ server.use((error: any, req: Request, res: Response, next: NextFunction) => {
   res.json({ message: error.message || "An unknown error occurred" });
 });
 
-mongoose
-  .connect(
-    `mongodb+srv://admin:Pedrorosa30081999@cluster.arumyay.mongodb.net/knowyourgame?retryWrites=true&w=majority`
-  )
-  .then(() => {
-    server.listen(8080 || process.env.PORT); //change this
-  })
-  .catch((err: any) => {
-    console.log(err);
-  });
+server.listen(8080);
+// mongoose
+//   .connect(
+//     `mongodb+srv://admin:Pedrorosa30081999@cluster.arumyay.mongodb.net/knowyourgame?retryWrites=true&w=majority`
+//   )
+//   .then(() => {
+//     server.listen(8080 || process.env.PORT); //change this
+//   })
+//   .catch((err: any) => {
+//     console.log(err);
+//   });

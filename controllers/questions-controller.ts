@@ -11,8 +11,14 @@ const getQuestions = async (
     const error = new HttpError("Could not retrieve a list of questions", 404);
     throw error;
   }
+  let questionsArray;
 
-  const questionsArray = pickRandom(questions, 10);
+  if (req.query.law) {
+    let law: Number = +req.query.law;
+    questions.filter((question) => question.law === law);
+  }
+
+  questionsArray = pickRandom(questions, 10);
   res.json({ questions: questionsArray });
 };
 
