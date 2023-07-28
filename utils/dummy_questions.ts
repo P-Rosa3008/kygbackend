@@ -1,6 +1,6 @@
 import { QuestionItem } from "./models/question";
 
-export const questions: Array<QuestionItem> = [
+export const dummy_questions: Array<QuestionItem> = [
   {
     id: 1,
     question:
@@ -171,7 +171,7 @@ export const questions: Array<QuestionItem> = [
   {
     id: 8,
     question:
-      "Numa ação normal de uma jogada, dois jogadores adversários saem pela linha lateral ou pela linha de baliza e aí um deles agride o adversário. O que fazer?",
+      " Numa ação normal de uma jogada, dois jogadores adversários saem pela linha lateral ou pela linha de baliza e aí um deles agride o adversário. O que fazer?",
     answers: [
       {
         text: "Executar um lançamento de bola ao solo no local onde se encontrava a bola.",
@@ -218,7 +218,7 @@ export const questions: Array<QuestionItem> = [
     ],
     isLocked: false,
     questionType: "random",
-    law: 12,
+    law: 11,
   },
   {
     id: 10,
@@ -244,7 +244,7 @@ export const questions: Array<QuestionItem> = [
     ],
     isLocked: false,
     questionType: "random",
-    law: 12,
+    law: 1,
   },
   {
     id: 11,
@@ -270,7 +270,7 @@ export const questions: Array<QuestionItem> = [
     ],
     isLocked: false,
     questionType: "random",
-    law: 12,
+    law: 11,
   },
   {
     id: 12,
@@ -296,7 +296,7 @@ export const questions: Array<QuestionItem> = [
     ],
     isLocked: false,
     questionType: "random",
-    law: 12,
+    law: 13,
   },
   {
     id: 13,
@@ -322,7 +322,7 @@ export const questions: Array<QuestionItem> = [
     ],
     isLocked: false,
     questionType: "random",
-    law: 12,
+    law: 13,
   },
   {
     id: 14,
@@ -348,7 +348,7 @@ export const questions: Array<QuestionItem> = [
     ],
     isLocked: false,
     questionType: "random",
-    law: 12,
+    law: 13,
   },
   {
     id: 15,
@@ -374,7 +374,7 @@ export const questions: Array<QuestionItem> = [
     ],
     isLocked: false,
     questionType: "random",
-    law: 12,
+    law: 13,
   },
   {
     id: 16,
@@ -400,7 +400,7 @@ export const questions: Array<QuestionItem> = [
     ],
     isLocked: false,
     questionType: "random",
-    law: 12,
+    law: 13,
   },
   {
     id: 17,
@@ -426,7 +426,7 @@ export const questions: Array<QuestionItem> = [
     ],
     isLocked: false,
     questionType: "random",
-    law: 12,
+    law: 13,
   },
   {
     id: 18,
@@ -452,7 +452,7 @@ export const questions: Array<QuestionItem> = [
     ],
     isLocked: false,
     questionType: "random",
-    law: 12,
+    law: 13,
   },
   {
     id: 19,
@@ -478,7 +478,7 @@ export const questions: Array<QuestionItem> = [
     ],
     isLocked: false,
     questionType: "random",
-    law: 12,
+    law: 13,
   },
   {
     id: 20,
@@ -504,6 +504,6 @@ export const questions: Array<QuestionItem> = [
     ],
     isLocked: false,
     questionType: "random",
-    law: 12,
+    law: 13,
   },
 ];
