@@ -1,11 +1,11 @@
-import { NextFunction, Request, Response } from "express";
+import { Request, Response } from "express";
 import { dummy_questions } from "../utils/dummy_questions";
 import { pickRandom } from "../utils/pickRandom";
+import HttpError from "../models/http-error";
 
 const getQuestions = async (
   req: Request,
   res: Response,
-  next: NextFunction
 ) => {
   let questionsArray;
 
@@ -17,7 +17,7 @@ const getQuestions = async (
   questionsArray = pickRandom(dummy_questions, 10);
 
   if (req.query.law) {
-    let law: Number = +req.query.law;
+    const law: number = +req.query.law;
     const questions = dummy_questions.filter((question) => question.law === law);
     questionsArray = pickRandom(questions, questions.length);
   }

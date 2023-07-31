@@ -1,4 +1,4 @@
-import { QuestionItem } from "./models/question";
+import { QuestionItem } from "../models/question";
 
 export const dummy_questions: Array<QuestionItem> = [
   {

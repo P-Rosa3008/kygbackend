@@ -1,7 +1,10 @@
-interface Error {
-  status?: number;
-  code?: number;
+declare global {
+  interface Error {
+    status?: number;
+    code?: number;
+  }
 }
+
 
 class HttpError extends Error {
   constructor(message: string, errorCode: number) {
@@ -10,4 +13,4 @@ class HttpError extends Error {
   }
 }
 
-module.exports = HttpError;
+export default HttpError;

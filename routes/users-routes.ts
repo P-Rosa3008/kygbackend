@@ -1,8 +1,9 @@
-const express = require("express");
+import express from "express";
+import { check } from "express-validator";
 
-const { check } = require("express-validator");
-
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const usersControllers = require("../controllers/users-controller");
+
 // const fileUpload = require("../middleware/file-upload");
 
 const router = express.Router();
